@@ -1,0 +1,432 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.testimonials {
+		min-height: auto;
+		padding-bottom: 50px;
+		margin-bottom: 80px;
+	}
+	.main-advantages {
+		background-position: 0 0;
+	}
+	.main-advantages__headline {
+		margin-bottom: 80px;
+	}
+	.main-advantages__pic:after {
+		height: 271px;
+	}
+	.main-advantages__heading {
+		margin-bottom: 20px;
+	}
+	.present-form__form {
+		padding: 40px 35px;
+	}
+	.present-form__heading {
+		font-size: 2.8rem;
+	}
+	.present-form__text {
+		font-size: 1.6rem;
+	}
+	.new-way-to-health__item {
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.help-any-age__item--3 h3 {
+		margin-bottom: 56px;
+	}
+	.intro-line {
+		width: 411px;
+	}
+	.intro-line-2 {
+		width: 388px;
+	}
+	.walking-man {
+		width: 58px;
+		top: 41%;
+	}
+	.walking-man-2 {
+		top: 51%;
+		width: 72px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	html {
+		font-size: 9px;
+	}
+	.main-advantages {
+		min-height: inherit;
+		margin-bottom: -50px;
+	}
+	.main-advantages__pic:after {
+		height: 205px;
+	}
+	.main-advantages__text {
+		font-size: 1.8rem;
+	}
+	.present-form,
+	.present-form.present-form-ukr {
+		background-position-x: -292px;
+	}
+	.present-form__main-headline {
+		max-width: 655px;
+	}
+	.present-form__form {
+		max-width: 500px;
+		margin: 60px auto 0;
+	}
+	.present-form__form form {
+		max-width: 280px;
+		margin: 0 auto;
+	}
+	.present-form__heading {
+		font-size: 3.2rem;
+	}
+	.present-form__text {
+		font-size: 2rem;
+	}
+	.new-way-to-health__item {
+		background-position-y: 10px;
+		margin-bottom: -20px;
+	}
+	.new-way-to-health__headline {
+		padding-top: 30px;
+		margin-bottom: 45px;
+	}
+	.intro-line, .intro-line-2, .walking-man, .walking-man-2 {
+		display: none;
+	}
+	.green-circle {
+		padding-top: 37px;
+	}
+	.can-start-anybody__text {
+		text-align: center;
+	}
+	.can-start-anybody__btn {
+		margin: 20px auto 50px;
+	}
+	#slider .owl-dots {
+		right: -181px;
+	}
+	.resolve-m-problems__pop-up {
+		width: 697px;
+	}
+	.resolve-m-problems__pop-up--4 {
+		left: -366px;
+	}
+	.resolve-m-problems__main--3 .resolve-m-problems__pop-up--3 {
+		left: 25px;
+	}
+	.resolve-m-problems__pop-up--2,
+	.resolve-m-problems__pop-up--6,
+	.resolve-m-problems__pop-up--8{
+		left: -348px;
+	}
+	.resolve-m-problems__pop-up--2:after,
+	.resolve-m-problems__pop-up--4:after,
+	.resolve-m-problems__pop-up--6:after,
+	.resolve-m-problems__pop-up--8:after{
+		left: 507px;
+	}
+	.resolve-m-problems__main--3 .resolve-m-problems__pop-up--3:after {
+		right: 525px;
+	}
+	.resolve-m-problems__main--9 .resolve-m-problems__pop-up--9::after {
+		left: 335px;
+		right: initial;
+	}
+	.main-footer img {
+		margin-top: 25px;
+	}
+}
+
+
+@media only screen and (max-width : 931px) {
+	.present-form,
+	.present-form.present-form-ukr {
+		background-position-x: -337px;
+	}
+}
+@media only screen and (max-width : 871px) {
+	.present-form,
+	.present-form.present-form-ukr {
+		background-position-x: -370px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 787px) {
+	#slider .owl-dots {
+		right: -165px;
+	}
+	.present-form,
+	.present-form.present-form-ukr {
+		background-position-x: 0;
+	}
+	.present-form__form {
+		margin-top: 45px;
+	}
+	.new-way-to-health__item {
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position-y: 0;
+		padding-right: 50px;
+		margin-left: 0;
+		margin-bottom: 4px;
+	}
+	.new-way-to-health__item .table-cell {
+		padding-right: 110px;
+	}
+}
+	/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	section,header,footer {
+		overflow: hidden; 
+	}
+	.really-think-that__headline {
+		padding-top: 50px;
+		margin-bottom: 50px;
+	}
+	.resolve-m-problems__inner p {
+		font-size: 3rem;
+	}
+	#slider {
+		padding-bottom: 20px;
+		overflow-y: hidden;
+	}
+	#slider .owl-dots {
+		position: relative;
+		right: 0;
+		top: 24px;
+		-webkit-transform: rotate(0);
+		-ms-transform: rotate(0);
+		transform: rotate(0);
+	}
+	.testimonials-btn {
+		margin: 45px auto 0;
+	}
+	#slider .owl-nav {
+		display: none;
+	}
+	.main-advantages__pic {
+		margin-bottom: 10px;
+	}
+	.main-advantages__pic img {
+		width: 100%;
+	}
+	.main-advantages__pic::after {
+		content: '';
+		position: relative;
+		display: block;
+		right: 0;
+		width: 331px;
+		height: 18px;
+		max-height: 100%;
+		background: url("../img/main-advantages-ico-horr.png")no-repeat top center;
+		margin: 30px auto 0;
+	}
+	.main-advantages__pic.main-advantages__pic--1::after {
+		right: 0;
+	}
+	.main-advantages__pic.main-advantages__pic--2::after {
+		left: 0;
+		-webkit-transform: rotate(0);
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		transform: rotate(0);
+	}
+	.main-advantages__heading {
+		text-align: center;
+	}
+	.main-advantages__text {
+		padding: 0 25px;
+	}
+	.present-form__main-headline {
+		padding-top: 130px;
+	}
+	.new-way-to-health {
+		margin-bottom: -100px;
+	}
+	.new-way-to-health__item {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.new-way-to-health__btn {
+		margin-top: 30px;
+	}
+	.help-any-age {
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.help-any-age__headline {
+		margin-bottom: 50px;
+	}
+	.help-any-age__item--3 h3 {
+		margin-bottom: 30px;
+	}
+	.help-any-age__item p {
+		max-width: 574px;
+	}
+	.resolve-m-problems__main:hover .resolve-m-problems__pop-up {
+		display: none !important;
+	}
+	.map {
+		min-height: 470px;
+	}
+	.main-footer {
+		text-align: center;
+		padding: 20px 0;
+	}
+	.new-way-to-health {
+		background-position-x: left;
+	}
+}
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 667px) {
+	.new-way-to-health__item .table-cell {
+		padding-right: 50px;
+	}
+}
+@media only screen and (max-width : 590px) {
+	.new-way-to-health__item .table-cell {
+		padding-right: 0;
+	}
+	.remodal.policy-conf {
+		padding: 30px 15px;
+	}
+	.remodal.policy-conf h1,
+	.remodal.policy-conf h2 {
+    	font-size: 3rem;
+	}
+}
+@media only screen and (max-width : 528px) {
+	.map {
+		background-position-x: -260px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.new-way-to-health__item {
+		padding-left: 50px;
+	}
+	.main-advantages__text {
+		margin-bottom: 70px;
+	}
+	.present-form__main-headline {
+		padding-top: 95px;
+	}
+}
+@media only screen and (max-width : 450px) {
+	.map {
+		background-position-x: -310px;
+	}
+}
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {
+	.resolve-m-problems__item {
+		-webkit-background-size: cover !important;
+		background-size: cover !important;
+	}
+	.green-circle {
+		width: 125px;
+		height: 125px;
+		font-size: 5rem;
+		margin-top: -62px;
+		margin-left: -62px;
+	}
+}
+
+@media only screen and (max-width : 412px) {
+	#countbox .countbox-num {
+		margin-right: 10px;
+	}
+
+}
+@media only screen and (max-width : 405px) {
+	.present-form__btn.present-form__btn--top {
+	   max-width: 315px;
+	}
+}
+@media only screen and (max-width : 400px) {
+	.map {
+		background-position-x: -370px;
+	}
+}
+
+@media only screen and (max-width : 380px) {
+	.main-advantages__text {
+		padding: 0;
+	}
+	.main-advantages__pic::after {
+		width: 100%;
+		margin-top: 15px;
+	}
+}
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 375px) {
+	.green-circle {
+		width: 110px;
+		height: 110px;
+		font-size: 4rem;
+		padding-top: 34px;
+		margin-top: -55px;
+		margin-left: -55px;
+	}
+	.static-menu h3 {
+		font-size: 2rem;
+	}
+}
+@media only screen and (max-width : 353px) {
+	#countbox .countbox-num {
+		margin-right: 2px;
+	}
+	.remodal {
+		padding: 35px 13px;
+	}
+
+}
+@media only screen and (max-width : 344px) {
+	.map {
+		background-position-x: -405px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.main-advantages__text {
+		margin-bottom: 80px;
+	}
+}
+/*==========  Mobile First Method  ==========*/
+@media only screen and (min-width : 400px) {
+	.remodal {
+		max-width: 380px;
+	}
+	.remodal.policy-conf {
+		max-width: 700px;
+	}
+}
